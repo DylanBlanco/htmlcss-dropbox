@@ -39,19 +39,33 @@ general
 ul {
     list-style: none;
 }
+li {
+    margin-right: 15px;
+}
 button {
     background: none;
     border: none;
+}
+.blue-botton {
+    background-color: #1a70fa;
+    color: white;
+    padding: 5px;
 }
 
 /*
 header
 */
-.header-top, header ul {
+.header-row, header ul {
     display: flex;
+    flex-wrap: wrap;
 }
-.header-top {
+.header-row {
+    height: 50px;
     justify-content: space-between;
+    align-items: center;
+}
+.logo-small {
+    width: 80px;
 }
 
 /*
