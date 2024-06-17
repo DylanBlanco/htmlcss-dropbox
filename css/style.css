@@ -26,6 +26,15 @@ debug
     background-color: aqua;
 }
 
+.debug footer .footer-row-top {
+    background-color: beige;
+    border: 1px dashed black;
+}
+.debug footer .footer-row-bottom {
+    background-color: beige;
+    border: 1px dashed black;
+}
+
 /*
 general
 */
@@ -52,6 +61,17 @@ button {
     padding: 5px;
 }
 
+footer {
+    color: white;
+    background-color: black;
+}
+.footer-row-box {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
 /*
 header
 */
@@ -75,3 +95,13 @@ main
 /*
 footer
 */
+.footer-row-top {
+    display: flex;
+    justify-content: space-between;
+}
+hr {
+    width: calc(100%/10);
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
