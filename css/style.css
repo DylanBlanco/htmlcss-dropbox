@@ -6,6 +6,9 @@ reset
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 /*
 debug
@@ -56,19 +59,28 @@ button {
 }
 .blue-botton {
     background-color: #1a70fa;
+    border: 1px solid #004ecc;
     color: white;
     padding: 5px;
 }
+.header-bottom {
+    background-color: #B5D0E8;
+}
 .header-row-bottom {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
+h1 {
+    padding: 30px 0;
+    font-size: 3rem;
+}
+
 footer {
     color: white;
     background-color: black;
 }
 .footer-row-box {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     padding-top: 60px;
     padding-bottom: 30px;
@@ -103,10 +115,24 @@ header
     align-items: flex-start;
     width: 30%;
 }
+.intro>* {
+    margin-bottom: 20px;
+}
 .img-header-bottom {
     width: 70%;
 }
-
+.img-header-bottom img {
+    width: 45%;
+    position: absolute;
+    margin-top: 10px;
+}
+.header-bottom i {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.header-row-bottom-box {
+    display: flex;
+}
 /*
 main
 */
