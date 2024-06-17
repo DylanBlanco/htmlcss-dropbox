@@ -22,18 +22,37 @@ debug
     background-color: grey;
     border: 1px dashed black;
 }
+.debug header .header-top div {
+    background-color: aqua;
+}
 
 /*
 general
 */
 .container{
-    max-height: 1000px;
     margin: 0 auto;
+    
+}
+.header-container {
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+button {
+    background: none;
+    border: none;
 }
 
 /*
 header
 */
+.header-top, header ul {
+    display: flex;
+}
+.header-top {
+    justify-content: space-between;
+}
 
 /*
 main
