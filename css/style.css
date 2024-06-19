@@ -37,14 +37,16 @@ debug
     background-color: beige;
     border: 1px dashed black;
 }
-
+.debug .fifth-section {
+    background-color: darkgreen;
+}
+.debug .fifth-section >* {
+    background-color: cadetblue;
+    border: 2px dashed black;
+}
 /*
 general
 */
-.container{
-    margin: 0 auto;
-}
-
 ul {
     list-style: none;
 }
@@ -65,7 +67,7 @@ button:hover {
 }
 .blue-botton {
     background-color: #1a70fa;
-    border: 1px solid #004ecc;
+    border: 1px solid #023e9e;
     color: white;
     padding: 5px;
 }
@@ -146,7 +148,7 @@ main
 */
 
 /*first section main*/
-.main-row-box {
+.main-row-box section:not(.fifth-section) {
     width: 70%;
     margin: 0 auto;
 }
@@ -188,7 +190,7 @@ h2 {
 .card-plan-enterprice>* {
     border: 1px solid #9b9b9b;
 }
-.card-plan-enterprice>div:first-child {
+.card-plan-enterprice>div  {
     text-align: center;
 }
 .card-plan-enterprice>div:last-child {
@@ -222,7 +224,7 @@ h2 {
     display: flex;
     padding: 50px 0;
 }
-.second-section>div:first-child {
+.second-section>div  {
     width: 60%;
 }
 .second-section>div:last-child {
@@ -264,7 +266,62 @@ h2 {
     margin-bottom: 20px;
 }
 
-
+/*fifth section main*/
+.fifth-section {
+    margin-top: 100px;
+    width: 100vw;
+    display: flex;
+}
+.fifth-section >* {
+    width: calc(100vw/ 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+.fifth-section>div:nth-child(2) {
+    flex-direction: column;
+    padding: 30px 30px;
+}
+.fifth-section-cell {
+    width: calc(100% / 2);
+    display: flex;
+}
+.fifth-section img {
+    max-width: 70%;
+    justify-content: center;
+    align-self: center;
+    padding-left: 50px;
+}
+.fifth-section-box p {
+    padding-bottom: 20px;
+}
+.fifth-left>.fifth-section-cell:first-child {
+    background-color: darkolivegreen;
+}
+.fifth-left>.fifth-section-cell:nth-child(2) {
+    background-color: #853535;
+}
+.fifth-left>.fifth-section-cell:nth-child(3) {
+    background-color: #4f72af;
+}
+.fifth-left>.fifth-section-cell:last-child {
+    background-color: #c11c1c;
+}
+.fifth-right>.fifth-section-cell:first-child {
+    background-color: #c22828;
+}
+.fifth-right>.fifth-section-cell:nth-child(2) {
+    background-color: #B5D0E8;
+}
+.fifth-right>.fifth-section-cell:nth-child(3) {
+    background-color: #1a3d7a;
+}
+.fifth-right>.fifth-section-cell:last-child {
+    background-color: #cbd025;
+}
+.fifth-center {
+    background-color: #f2f2e6;
+}
 /*
 footer
 */
