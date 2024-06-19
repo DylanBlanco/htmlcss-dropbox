@@ -215,6 +215,25 @@ h2 {
     color: #1a70fa;
 }
 
+.img-partner {
+    max-width: 100%;
+}
+.second-section {
+    display: flex;
+    padding: 50px 0;
+}
+.second-section>div:first-child {
+    width: 60%;
+}
+.second-section>div:last-child {
+    width: 40%;
+}
+.second-section>div:last-child>* {
+    padding: 30px 20px;
+}
+.second-section button {
+    border: 1px solid black;
+}
 
 /*
 footer
