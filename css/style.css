@@ -148,7 +148,7 @@ main
 */
 
 /*first section main*/
-.main-row-box section:not(.fifth-section) {
+.main-row-box section:not(.fifth-section, .sixth-section) {
     width: 70%;
     margin: 0 auto;
 }
@@ -198,6 +198,7 @@ h2 {
     display: flex;
 }
 .column-card-enterprice-left {
+    text-align: left;
     width: 70%;
     padding: 30px 20px;
 }
@@ -322,6 +323,30 @@ h2 {
 .fifth-center {
     background-color: #f2f2e6;
 }
+
+/*sixth section main*/
+.sixth-section {
+    background-color: #B5D0E8;
+}
+.sixth-section-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+.sixt-button-h2 {
+    width: 70%;
+}
+.sixt-button-section {
+    width: 30%;
+}
+
+.sixth-section button {
+    border: 1px solid grey;
+}
+
+
 /*
 footer
 */
