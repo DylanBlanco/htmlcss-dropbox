@@ -346,13 +346,34 @@ h2 {
     border: 1px solid grey;
 }
 
+/*seventh section main*/
+.seventh-section {
+    padding: 100px 0;
+}
+.seventh-section>div {
+    display: flex;
+    justify-content: space-between;
+}
+.seventh-section hr {
+    margin-top: 40px;
+}
 
 /*
 footer
 */
+.footer-row-box {
+    padding-top: 50px;
+}
 .footer-row-top {
+    padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
+}
+.footer-row-box h3 {
+    padding-bottom: 20px;
+}
+.footer-row-box li {
+    padding-bottom: 5px;
 }
 hr {
     width: calc(100%/10);
@@ -363,4 +384,12 @@ hr {
 footer a {
     text-decoration: none;
     color: white;
+}
+select {
+    background: none;
+    border: none;
+    color: white;
+}
+select option {
+    color: black;
 }
