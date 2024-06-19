@@ -93,7 +93,7 @@ footer {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: #1a70fa;
 }
 footer li {
     margin-bottom: 5px;
@@ -213,9 +213,6 @@ h2 {
 .card-plan .blue-botton {
     width: 100%;
 }
-.card-plan a {
-    color: #1a70fa;
-}
 
 /*second section main*/
 .img-partner {
@@ -254,7 +251,18 @@ h2 {
 .third-section-box h3 {
     padding-bottom: 15px;
 }
+.third-section h3 {
+    font-size: 1.1rem;
+}
 
+/*fourth section main*/
+.fourth-section {
+    margin: 100px 0;
+}
+.fourth-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
 
 
 /*
@@ -269,4 +277,8 @@ hr {
     color: white;
     margin-top: 6px;
     margin-bottom: 30px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
 }
