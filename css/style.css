@@ -44,9 +44,7 @@ general
 .container{
     margin: 0 auto;
 }
-.header-container {
-    width: 100%;
-}
+
 ul {
     list-style: none;
 }
@@ -56,6 +54,14 @@ header li {
 button {
     background: none;
     border: none;
+    padding: 5px;
+}
+button:active {
+    background-color: #7f97a9;
+}
+button:hover {
+    background-color: #8c9dab;
+    transition: 0.3s;
 }
 .blue-botton {
     background-color: #1a70fa;
@@ -67,7 +73,7 @@ button {
     background-color: #B5D0E8;
 }
 .header-row-bottom {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 h1 {
@@ -80,7 +86,7 @@ footer {
     background-color: black;
 }
 .footer-row-box {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     padding-top: 6px;
     padding-bottom: 30px;
@@ -133,11 +139,13 @@ header
 .header-row-bottom-box {
     display: flex;
 }
+
+
 /*
 main
 */
 .main-row-box {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 .piano-abbonamento {
@@ -155,11 +163,58 @@ h2 {
 .row-options {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .card-plan {
-    justify-content: space-between;
-    width: calc((100%/3)-50px);
+    width: 30%;
 }
+.card-plan>* {
+    border: 1px solid #9b9b9b;
+}
+.card-plan>div:first-child {
+    border-bottom: none;
+    text-align: center;
+}
+.card-plan>div:last-child>* {
+    margin: 30px 20px;
+}
+
+.card-plan-enterprice {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card-plan-enterprice>* {
+    border: 1px solid #9b9b9b;
+}
+.card-plan-enterprice>div:first-child {
+    text-align: center;
+}
+.card-plan-enterprice>div:last-child {
+    border-top: none;
+    display: flex;
+}
+.column-card-enterprice-left {
+    width: 70%;
+    padding: 30px 20px;
+}
+.column-card-enterprice-right {
+    width: 30%;
+    padding-top: 30px;
+}
+.column-card-enterprice-left>* {
+    width: 70%;
+    padding-bottom: 10px;
+}
+.column-card-enterprice-left>p {
+    padding-top: 40px;
+}
+.card-plan .blue-botton {
+    width: 100%;
+}
+.card-plan a {
+    color: #1a70fa;
+}
+
 
 /*
 footer
