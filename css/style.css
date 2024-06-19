@@ -144,6 +144,8 @@ header
 /*
 main
 */
+
+/*first section main*/
 .main-row-box {
     width: 70%;
     margin: 0 auto;
@@ -215,6 +217,7 @@ h2 {
     color: #1a70fa;
 }
 
+/*second section main*/
 .img-partner {
     max-width: 100%;
 }
@@ -234,6 +237,25 @@ h2 {
 .second-section button {
     border: 1px solid black;
 }
+
+/*third section main*/
+.third-section-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.third-section-box img {
+    max-width: 100%;
+}
+.third-section-box>* {
+    width: 30%;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.third-section-box h3 {
+    padding-bottom: 15px;
+}
+
+
 
 /*
 footer
